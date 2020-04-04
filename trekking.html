@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="description" content="...Описание">
+    <meta name="keywords" content="...Ключевые слова">
+    <meta http-equiv="refresh" content="3; url=trekking.html">
+    <link rel="stylesheet" href="./assets/css/trekking.css">
+    <link rel="stylesheet" href="./assets/css/trekking-adaptive.css">
+
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <title>Trekking</title>
+</head>
+<body>
+<!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <img src="assets/images/icons/logo.png">
+                    <nav class="nav">
+                        <a href="#" class="nav__item">Home</a>
+                        <a href="#" class="nav__item">Products</a>
+                        <a href="#" class="nav__item">
+                            <img src="assets/images/icons/shopping-cart.png">
+                        </a>
+                    </nav>
+                </div>
+                <div class="header__intro">
+                    <h1 class="header__title">Our clothing , your comfort</h1>
+                    <p class="header__paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                    </p>
+                </div>
+                <div class="header__arrow-down">
+                    <a href="#"><img src="assets/images/icons/arrow-down.png" /></a>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--Menu-->
+    <div class="stuff-blocknav gray">
+        <div class="container">
+            <div class="stuff-blocknav__inner">
+                <nav class="menu">
+                    <div class="menu__input">
+                        <input type="checkbox" id="men" class="menu__checkbox" checked onChange="toggleHideOrDisplay('stuffMenJS')">
+                        <label for="men" class="menu__label">Men</label>
+                    </div>
+                    <div class="menu__input">
+                        <input type="checkbox" id="women" class="menu__checkbox" checked onChange="toggleHideOrDisplay('stuffWomenJS')">
+                        <label for="women" class="menu__label">Women</label>
+                    </div>
+                    <div class="menu__input">
+                        <input type="checkbox" id="children" class="menu__checkbox" checked onChange="toggleHideOrDisplay('stuffChildrenJS')">
+                        <label for="children" class="menu__label">Children</label>
+                    </div>
+                </nav>
+                <button class="button stuff-blocknav__button">See all products</button>
+            </div>
+        </div>
+    </div>
+<!--Stuff-->
+    <div class="stuff">
+        <div class="container">
+            <div class="stuff__block" id="stuffMenJS">
+                <div class="stuff__label label label_first">
+                    <span class="label__text">Men</span>
+                </div>
+                <div class="stuff__container-for-arrows stuff__container-for-arrows_first">
+                </div>
+                <div class="stuff__slider stuff__slider_first">
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_blue"></div>
+                                        <div class="color__ball color__ball_yellow"></div>
+                                        <div class="color__ball color__ball_black"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/1.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">5,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/2.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">Pants FORCLAZ</span>
+                                    <span class="details__price">30,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">10litri</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/3.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_blue"></div>
+                                        <div class="color__ball color__ball_yellow"></div>
+                                        <div class="color__ball color__ball_black"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/1.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">5,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/2.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">Pants FORCLAZ</span>
+                                    <span class="details__price">30,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">10litri</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/3.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+                    </div>
+            </div>
+
+
+            <div class="stuff__block" id="stuffWomenJS">
+                <div class="stuff__label label label_second">
+                    <span class="label__text label__text_reverse">Women</span>
+                </div>
+
+                <div class="stuff__container-for-arrows stuff__container-for-arrows_second">
+
+                </div>
+
+                <div class="stuff__slider stuff__slider_second">
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/4.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">giacket</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/5.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">trekking-shoes</span>
+                                    <span class="details__price">80,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_pink"></div>
+                                        <div class="color__ball color__ball_white"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/6.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">20,00&euro;</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/4.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">giacket</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/5.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">trekking-shoes</span>
+                                    <span class="details__price">80,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_pink"></div>
+                                        <div class="color__ball color__ball_white"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/6.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">20,00&euro;</span>
+                                </div>
+                            </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="stuff__block" id="stuffChildrenJS">
+                <div class="stuff__label label label_first">
+                    <span class="label__text">Children</span>
+                </div>
+
+                <div class="stuff__container-for-arrows stuff__container-for-arrows_third">
+
+                </div>
+
+                <div class="stuff__slider stuff__slider_third">
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/4.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">giacket</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/5.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">trekking-shoes</span>
+                                    <span class="details__price">80,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_pink"></div>
+                                        <div class="color__ball color__ball_white"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/6.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">20,00&euro;</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/4.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">giacket</span>
+                                    <span class="details__price">60,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/5.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">trekking-shoes</span>
+                                    <span class="details__price">80,00&euro;</span>
+                                </div>
+                            </div>
+
+                            <div class="stuff__item gray">
+                                <div class="stuff__size-and-color">
+                                    <div class="stuff__size">
+                                        <a href="#" class="size">
+                                            <span class="size__label">Size</span>
+                                            <img src="assets/images/icons/angle-down-black.png">
+                                        </a>
+                                    </div>
+                                    <div class="stuff__color color">
+                                        <div class="color__ball color__ball_pink"></div>
+                                        <div class="color__ball color__ball_white"></div>
+                                    </div>
+                                </div>
+                                <div class="stuff__container-image">
+                                    <img src="assets/images/products/6.png" class="stuff__image">
+                                </div>
+                                <div class="stuff__details details">
+                                    <span class="details__thing">t-shirt</span>
+                                    <span class="details__price">20,00&euro;</span>
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </div>
+    </div>
+<!--About -->
+    <div class="about">
+        <div class="container">
+            <fieldset class="about__inner">
+                <legend class="about__header">About us</legend>
+                <div class="about__content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__e-commerce">
+            <div class="container">
+                <div class="e-commerce">
+                    <img src="assets/images/icons/twitter.png">
+                    <span class="e-commerce__label">&quot E-commerce psd theme available &quot</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <div class="container">
+                <div class="info">
+                    <div class="info__left">
+                        <h3 class="info__header">Trekking</h3>
+                        <p class="info__paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="info__right">
+                        <div class="info__menu">
+                            <a href="#" class="info__link">Credits</a>
+                            <a href="#" class="info__link">Privacy</a>
+                            <a href="#" class="info__link">About</a>
+                            <a href="#" class="info__link">Contact</a>
+                        </div>
+                        <span class="info__design">Design by gianluca cosetta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/slick/slick.min.js"></script>
+<script src="assets/slick/slider.js"></script>
+<script src="assets/javascript/trekking.js"></script>
+</body>
+</html>
