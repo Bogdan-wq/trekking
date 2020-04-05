@@ -311,7 +311,6 @@ button {
 .stuff__slider {
     margin-top:15px;
     display: flex;
-    justify-content: space-between;
 }
 .stuff__item-wrapper {
     padding: 7px 32px;

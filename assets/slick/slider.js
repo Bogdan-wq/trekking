@@ -7,8 +7,6 @@ $(document).ready(function () {
          slidesToShow:3,
          draggable:false,
          adaptiveHeight:true,
-         variableWidth: true,
-         centerMode:true,
          responsive: [
              {
                  breakpoint:850,
