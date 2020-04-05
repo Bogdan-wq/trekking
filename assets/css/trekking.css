@@ -311,15 +311,18 @@ button {
 .stuff__slider {
     margin-top:15px;
     display: flex;
+    justify-content: space-between;
+}
+.stuff__item-wrapper {
+    padding: 7px 32px;
 }
 .stuff__item {
     padding:25px;
-    margin-left: 25px;
     display: flex;
     flex-direction: column;
 }
-.stuff__item:first-child {
-    margin-left: 0;
+.stuff__item:hover {
+    outline: 7px solid #aa9b77;
 }
 .stuff__size-and-color {
     display: flex;
